@@ -1,10 +1,3 @@
-//
-//  RobotBody.cpp
-//  RobotArm
-//
-//  Created by Yu Chen on 11/22/14.
-//  Copyright (c) 2014 Yu Chen. All rights reserved.
-//
 
 #include "Body.h"
 

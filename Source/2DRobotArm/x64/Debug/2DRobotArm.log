@@ -1,20 +1,28 @@
-﻿Build started 18/11/2015 01:03:25.
-     1>Project "G:\College\Year 4\Graphics\Assignments\Assignment A Robot Arm\C00170460-RobotArm\2DRobotArm\2DRobotArm\2DRobotArm.vcxproj" on node 2 (Build target(s)).
+﻿Build started 18/11/2015 21:46:25.
+     1>Project "G:\College\Year 4\Graphics\Assignments\Assignment A Robot Arm\C00170460-RobotArm\GraphicsAssessmentOne\Source\2DRobotArm\2DRobotArm.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\SFML\SFML-2.3.2\include" /Zi /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\SFML\SFML-2.3.2\include" /Zi /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Body.cpp ClawGrips.cpp LowArm.cpp Main.cpp Pivot.cpp ShapeBridge.cpp UpperArm.cpp
+         UpperArm.cpp
+         ShapeBridge.cpp
+         Pivot.cpp
          Main.cpp
      1>Main.cpp(46): warning C4244: 'argument' : conversion from 'const float' to 'unsigned int', possible loss of data
+         LowArm.cpp
+         ClawGrips.cpp
+     1>ClawGrips.cpp(66): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+         Body.cpp
+         Generating Code...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"G:\College\Year 4\Graphics\Assignments\Assignment A Robot Arm\C00170460-RobotArm\2DRobotArm\x64\Debug\2DRobotArm.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\SFML\SFML-2.3.2\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "sfml-graphics.lib" "sfml-window.lib" "sfml-system.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\College\Year 4\Graphics\Assignments\Assignment A Robot Arm\C00170460-RobotArm\2DRobotArm\x64\Debug\2DRobotArm.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\College\Year 4\Graphics\Assignments\Assignment A Robot Arm\C00170460-RobotArm\2DRobotArm\x64\Debug\2DRobotArm.lib" /MACHINE:X64 x64\Debug\Body.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"G:\College\Year 4\Graphics\Assignments\Assignment A Robot Arm\C00170460-RobotArm\GraphicsAssessmentOne\Source\x64\Debug\2DRobotArm.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\SFML\SFML-2.3.2\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "sfml-graphics.lib" "sfml-window.lib" "sfml-system.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\College\Year 4\Graphics\Assignments\Assignment A Robot Arm\C00170460-RobotArm\GraphicsAssessmentOne\Source\x64\Debug\2DRobotArm.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\College\Year 4\Graphics\Assignments\Assignment A Robot Arm\C00170460-RobotArm\GraphicsAssessmentOne\Source\x64\Debug\2DRobotArm.lib" /MACHINE:X64 x64\Debug\Body.obj
          x64\Debug\ClawGrips.obj
          x64\Debug\LowArm.obj
          x64\Debug\Main.obj
          x64\Debug\Pivot.obj
          x64\Debug\ShapeBridge.obj
          x64\Debug\UpperArm.obj
-         2DRobotArm.vcxproj -> G:\College\Year 4\Graphics\Assignments\Assignment A Robot Arm\C00170460-RobotArm\2DRobotArm\x64\Debug\2DRobotArm.exe
-     1>Done Building Project "G:\College\Year 4\Graphics\Assignments\Assignment A Robot Arm\C00170460-RobotArm\2DRobotArm\2DRobotArm\2DRobotArm.vcxproj" (Build target(s)).
+         2DRobotArm.vcxproj -> G:\College\Year 4\Graphics\Assignments\Assignment A Robot Arm\C00170460-RobotArm\GraphicsAssessmentOne\Source\x64\Debug\2DRobotArm.exe
+     1>Done Building Project "G:\College\Year 4\Graphics\Assignments\Assignment A Robot Arm\C00170460-RobotArm\GraphicsAssessmentOne\Source\2DRobotArm\2DRobotArm.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.89
+Time Elapsed 00:00:04.74
