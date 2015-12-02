@@ -55,8 +55,8 @@ int main()
 
 	std::string controls = "Controls: ";
 	controls.append("\nMovement: << + >> Arrow Keys Left/Right");
-	controls.append("\nLower Arm Right: A + S Up/Down");
-	controls.append("\nUpper Arm Right: Z + X Up/Down");
+	controls.append("\nLower Arm: A + S Up/Down");
+	controls.append("\nUpper Arm: Z + X Up/Down");
 	controls.append("\nClaw Mechanism: Q + E Open/Close");
 
 	sf::Font _font;
