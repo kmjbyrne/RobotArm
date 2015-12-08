@@ -46,6 +46,7 @@ Claw::~Claw()
 	delete this->left_b;
 	delete this->right_a;
 	delete this->right_b;
+	delete this->pivot;
 }
 
 bool Claw::controlClaw(float rotate)

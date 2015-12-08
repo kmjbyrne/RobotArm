@@ -33,7 +33,7 @@
 class Assembly : public sf::Drawable, public sf::Transformable
 {
 private:
-	std::map<int, sf::Shape*> shapes;
+	std::map<int, sf::Shape*> constructs;
 	virtual void draw(sf::RenderTarget &target, sf::RenderStates states) const;
 public:
 	Assembly(const sf::Vector2<float>&focus = sf::Vector2<float>(0, 0), const sf::Vector2<float>&origin = sf::Vector2<float>(0, 0));

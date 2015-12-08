@@ -24,4 +24,5 @@ UpperArmSegment::~UpperArmSegment()
 {
 	delete this->arm;
 	delete this->pivot_a;
+	delete this->pivot_b;
 }

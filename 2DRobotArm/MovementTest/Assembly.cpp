@@ -10,7 +10,7 @@ Assembly::Assembly(const sf::Vector2<float>&focus, const sf::Vector2<float>&orig
 
 void Assembly::draw(sf::RenderTarget &target, sf::RenderStates states) const
 {
-	for (auto i = this->shapes.begin(); i != this->shapes.end(); i++)
+	for (auto i = this->constructs.begin(); i != this->constructs.end(); i++)
 	{
 		target.draw(*(i->second), states);
 	}
@@ -18,12 +18,12 @@ void Assembly::draw(sf::RenderTarget &target, sf::RenderStates states) const
 
 void Assembly::add(int index, sf::Shape* shape)
 {
-	this->shapes[index] = shape;
+	this->constructs[index] = shape;
 }
 
 void Assembly::setFillColor(const sf::Color &color)
 {
-	for (auto i = this->shapes.begin(); i != this->shapes.end(); i++)
+	for (auto i = this->constructs.begin(); i != this->constructs.end(); i++)
 	{
 		i->second->setFillColor(color);
 	}
@@ -42,7 +42,7 @@ void Assembly::setPosition(const sf::Vector2<float> &position)
 void Assembly::rotate(float angle)
 {
 	this->sf::Transformable::rotate(angle);
-	for (auto i = this->shapes.begin(); i != this->shapes.end(); i++)
+	for (auto i = this->constructs.begin(); i != this->constructs.end(); i++)
 	{
 		i->second->rotate(angle);
 	}
@@ -57,7 +57,7 @@ void Assembly::move(float offsetX, float offsetY)
 void Assembly::move(const sf::Vector2f &offset)
 {
 	this->Transformable::move(offset);
-	for (auto i = this->shapes.begin(); i != this->shapes.end(); i++)
+	for (auto i = this->constructs.begin(); i != this->constructs.end(); i++)
 	{
 		i->second->move(offset);
 	}

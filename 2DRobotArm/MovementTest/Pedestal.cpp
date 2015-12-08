@@ -24,4 +24,6 @@ Pedestal::Pedestal() : Assembly(sf::Vector2<float>(110, -50), sf::Vector2<float>
 Pedestal::~Pedestal()
 {
 	delete this->base;
+	delete this->riser;
+	delete this->pivot;
 }
